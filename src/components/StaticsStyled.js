@@ -4,7 +4,7 @@ const StatisticsSection = styled.section`
   background-color: #ffff;
   margin: 0 auto;
   width: 400px;
-  padding: 10px 0;
+  padding: 0;
   border: solid 1px #a2a6ab;
   border-radius: 10px;
 `;
@@ -17,7 +17,14 @@ const StatList = styled.ul`
   display: flex;
   margin: 0;
   justify-content: space-around;
-  background-color: #14afde;
+  background: linear-gradient(
+    to left,
+    #14afde 20%,
+    #c30bdb 20% 40%,
+    #eb1a07 40% 60%,
+    #015966 60% 80%,
+    #730e53 80% 
+  );
   padding: 0;
 `;
 

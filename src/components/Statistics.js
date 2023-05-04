@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import {
   StatisticsSection,
   Title,
@@ -19,5 +21,10 @@ const Statistics = ({ title, stats }) => (
     </StatList>
   </StatisticsSection>
 );
+
+StatList.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.array,
+};
 
 export default Statistics;
